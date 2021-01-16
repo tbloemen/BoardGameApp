@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Draughts: a classic two player board game</title>
+    </head>
+    <body>
+        <main>
+            <section id="left">
+                <img src="draughts_image.jpg" alt="Draughts">
+            </section>
+            <section id="right">
+                <ul>
+                    <il> 
+                        <button type="button" id="rules">Rules</button>
+                    </il>
+                    <il>
+                        <form action="/play" method="GET">
+                        <button type="submit">Let's play!</button>
+                        </form>
+                    </il>
+                </ul>
+            </section>
+            <section id="stats">
+                <h2>Statistics:</h2>
+                <ul>
+                    <il>
+                        Current active games: <span id="activeGames">0</span>
+                    </il>
+                    <il>
+                        Games played in total: <span id="totalGames">0</span>
+                    </il>
+                    <il>
+                        Win-to-draw ratio: <span id="ratio">0</span>
+                    </il>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
+
